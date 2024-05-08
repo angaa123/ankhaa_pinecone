@@ -1,0 +1,25 @@
+h1,
+h3,
+h4,
+h5,
+h6,
+p a {
+  color: #bd653c;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: rgb(103, 208, 214);
+}
+
+h1 samp {
+  color: #ff0000;
+  background-color: rgb(255, 208, 0);
+}
+button{
+  color: #fc2ae7;
+  background-color: rgba(0, 255, 30, 0.5);
+  font-size: 50px;
+}
+p {
+  color: rgba(255, 0, 230, 0.5);
+}

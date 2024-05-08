@@ -1,0 +1,30 @@
+#hoyor {
+    background-color: aquamarine;
+    width: 300px;
+    height: 400px;
+}
+#neg{
+    background-color: rgb(255, 170, 204);
+    width: 200px;
+    height: 300px;
+}
+div {
+    background-color: blue;
+}
+
+.text {
+    font-size: 40px;
+    color: rgb(255, 132, 0);
+}
+#shar{
+    color: yellow;
+}
+
+#ulaan{
+    color: red;
+}
+
+#nogoon{
+    color: green;
+}
+
