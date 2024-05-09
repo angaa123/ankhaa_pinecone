@@ -2,19 +2,28 @@
     margin: 0;
 }
 #full{
-    color: yellow;
+    background-color: yellow;
     width: 100vw;
     height: 100vh;   
 }
 #top{
-    color: pink;
-    width: 100vw;
-    height: 50vh;
+    background-color: pink;
+    width: 100%;
+    height:50%;
 }
-.w50{
-    width: 50%;
+.h100{
     height: 100%
 }
-#insideT{
-    color:black;
+
+.w50{
+    width: 50%;
+}
+#black{
+    background-color:black;
+}
+#brown{
+    background-color: brown;
+}
+#blue{
+    background-color: blue;
 }
