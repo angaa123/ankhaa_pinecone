@@ -1,0 +1,22 @@
+.box{
+    background-color: red;
+    width: 50vw;
+    height: 33vh;
+    margin: 30px;
+    font-size: 40px;
+}
+.box_1{
+    background-color: blue;
+    width: 50%;
+    height: 70%;
+}
+.box_2{
+    background-color: yellow;
+    width: 5em;
+    height: 100%;
+}
+.box_2_1{
+    background-color: rgb(255, 0, 162);
+    width: 4rem;
+    height: 100%;
+}
