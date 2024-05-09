@@ -1,3 +1,6 @@
+* {
+    margin: 0;
+}
 #full{
     color: yellow;
     width: 100vw;
