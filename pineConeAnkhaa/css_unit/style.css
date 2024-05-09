@@ -6,24 +6,26 @@
     width: 100vw;
     height: 100vh;   
 }
-#top{
-    background-color: pink;
-    width: 100%;
-    height:50%;
-}
-.h100{
-    height: 100%
-}
-
-.w50{
-    width: 50%;
-}
-#black{
-    background-color:black;
-}
-#brown{
+#teg{
     background-color: brown;
 }
-#blue{
+#neg{
+    background-color:black;
+}
+#hoyor{
     background-color: blue;
 }
+#gurav{
+    background-color:rgb(52, 202, 47);
+}
+#duruv{
+    background-color:rgb(202, 47, 171);
+}
+#tav{
+    background-color: blanchedalmond;
+}
+.h100{height: 100%;}
+.h50{height: 50%;}
+.w50{width: 50%;}
+.w100{width: 100%;}
+.w66{width: 66.66%;}
