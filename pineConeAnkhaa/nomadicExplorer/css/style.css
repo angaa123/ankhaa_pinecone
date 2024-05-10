@@ -1,0 +1,7 @@
+*{
+    margin: 0;
+}
+#top-flexbox{
+    height: 10vh;
+    width: 100vw;
+}
