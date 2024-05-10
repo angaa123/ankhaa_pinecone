@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    border-radius: 5px ;
+    border-color: red;
+    border-style:  dotted;
+    justify-content: flex-end;
+
+}
+.item{
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    border-radius: 5px; 
+    border-style: dashed;
+}
