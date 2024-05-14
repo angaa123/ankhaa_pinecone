@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+nav {
+  height: 80px;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+div {
+  margin: 120px;
+}
