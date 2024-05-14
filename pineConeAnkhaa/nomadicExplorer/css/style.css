@@ -1,70 +1,124 @@
-*{
+* {
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    background-color:#d5c7a1;
+
+body {
+    background-color: #d5c7a1;
+    font-family: Arial, sans-serif;
 }
-#top-flexbox{
+
+#top-flexbox {
     position: sticky;
     top: 0;
     z-index: 2;
     height: 10vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     background-color: #d5c7a1;
-    justify-content:space-between;
-    align-items:center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
 }
-#logo{
+
+#logo {
     height: 100%;
-    width: 30%;
     display: flex;
     align-items: center;
 }
 
-#minu{
-    height: 80%;
-    width: 30%;
+#logo img {
+    height: 100%;
+    max-height: 10vh;
 }
-#account{
-    height: 80%;
+
+#minu, #account {
     width: 30%;
 }
 
-.background-images{
-    width: 100vw;
+.button {
+    height: 100%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #4b3418;
+    background-color: #c0854e;
+    color: #fff3e0;
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin: 0 5px;
+    cursor: pointer;
 }
+
+.background-images {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
 .image {
     position: relative;
+    width: 100%;
 }
 
-.image img{
+.image img {
     width: 100%;
-    top:0;
+    height: auto;
+    display: block;
+}
+h1{
     position: absolute;
-}6
-
-p{
-    position: relative;
+    z-index: 1;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #4b3418;
+    background-color: aqua;
+}
+p {
+    position: absolute;
     z-index: 1;
     top: 200px;
+    left: 30px;
     font-size: 2rem;
-    /* right: -20px; */
+    color: #4b3418;
+    background-color: red;
+    padding: 5px 10px;
+}
+
+/* Contact Us Section */
+#contact-us {
+    padding: 20px;
+    background-color:#fff3e0;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact-us h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
     color: #4b3418;
 }
 
-.button{
-    height:100%;
-    width: 40%;
-    border-radius :20%;
-    border-color:#4b3418 ;
-    background-color: #c0854e;
-    color: #fff3e0;
-    font-size:120%;
-    font-weight: 900;
+#contact-us label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #4b3418;
 }
 
-.image-1{
-    background-color: aqua;
+#contact-us input, #contact-us textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-us .button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
 }

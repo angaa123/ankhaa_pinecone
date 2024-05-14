@@ -6,37 +6,76 @@
     <title>Nomadic Explorer</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<!-- body starts -->
 <body>
-    <!-- top -->
-    <!-- 3 div 1-logo 2-minu 3-account -->
+    <!-- Top Flexbox -->
     <div id="top-flexbox">
         <div id="logo">
-            <img src="./photos/nomadicExplorerLogo.png" alt="" height="150%">
+            <img src="./photos/nomadicExplorerLogo.png" alt="Nomadic Explorer Logo">
         </div>
         <div id="minu">
-            <button class="button">
-            
-                contact us
-            
-                
-            </button>
-            <button class="button">booking</button>
+            <button class="button">Contact Us</button>
+            <button class="button">Booking</button>
         </div>
         <div id="account">
-            <button class="button login">Log In</button>
+            <button class="button">Log In</button>
             <button class="button">Sign Up</button>
         </div>
     </div>
     
-    <!-- background image -->
+    <!-- Background Images -->
     <div class="background-images">
-        <div class="image">
+        <div class="image ">
+            <h1>ankhaa</h1>
             <p>aksnd</p>
-            <img src="./photos/gobi famaly.jpg" alt="">
+            <img src="./photos/gobi famaly.jpg" alt="Gobi Family">
+        </div>
+        <div class="image ">
+            <h1></h1>
+            <p>ankhaa</p>
+            <img src="./photos/dino.jpg" alt="Dinosaur">
+        </div>
+        <div class="image">
+            <h1></h1>
+            <p></p>
+            <img src="./photos/gobi.jpg" alt="">
+        </div>
+        <div class="image">
+            <h1></h1>
+            <p></p>
+            <img src="./photos/new mfly.jpg" alt="">
+        </div>
+        <div class="image">
+            <h1></h1>
+            <p></p>
+            <img src="./photos/meat.jpg" alt="">
+        </div>
+        <div class="image">
+            <h1></h1>
+            <p></p>
+            <img src="./photos/sheep.jpg" alt="">
+        </div>
+        <div class="image">
+            <h1></h1>
+            <p></p>
+            <img src="./photos/sumi.jpg" alt="">
         </div>
     </div>
-    <!-- contact us -->
 
+    <!-- Contact Us -->
+    <div id="contact-us">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="button">Submit</button>
+        </form>
+    </div>
 </body>
 </html>

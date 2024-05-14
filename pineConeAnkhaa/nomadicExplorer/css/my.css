@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+    padding: 0;
+}
+body{
+    background-color:#d5c7a1;
+}
+#top-flexbox{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    background-color: #d5c7a1;
+    justify-content:space-between;
+    align-items:center;
+}
+#logo{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+#minu{
+    height: 80%;
+    width: 30%;
+}
+#account{
+    height: 80%;
+    width: 30%;
+}
+
+.background-images{
+    width: 100vw;
+    flex-direction: column;
+    gap: 0;
+}
+.image {
+    
+    top:0;
+}
+
+.image img{
+    width: 100%;
+    top:0;
+    bottom: 0;
+    position: relative;
+}
+
+p{
+    position: absolute;
+    z-index: 5;
+    top: 200px;
+    left: 30px;
+    font-size: 2rem;
+    color: #4b3418;
+    background-color: red;
+}
+
+.button{
+    height:100%;
+    width: 40%;
+    border-radius :20%;
+    border-color:#4b3418 ;
+    background-color: #c0854e;
+    color: #fff3e0;
+    font-size:120%;
+    font-weight: 900;
+}
+
+.image-1{
+    background-color: rgb(42, 78, 146);
+}
+.image-2{
+    background-color: aqua;
+}
