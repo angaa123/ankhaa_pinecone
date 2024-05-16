@@ -2,6 +2,8 @@
   margin: 0;
   box-sizing: border-box;
   padding: 0;
+  font-weight: 700;
+  font-family: Montserrat;
 }
 body {
   background-color: #f4f4f4;
@@ -35,14 +37,10 @@ nav {
   gap: 8px;
 }
 h1 {
-  font-weight: 700;
-  font-family: Montserrat;
   color: #303030;
 }
 h3 {
   color: #ababab;
-  font-family: Montserrat;
-  font-weight: 700;
 }
 .garchig h1 {
   font-size: 72px;
@@ -50,13 +48,12 @@ h3 {
   text-align: center;
 }
 .garchig h3 {
-  font-family: Montserrat;
   font-size: 24px;
-  font-weight: 700;
   line-height: 29.26px;
   text-align: center;
   color: #ababab;
 }
+
 .image {
   display: flex;
   justify-content: space-between;
@@ -87,12 +84,9 @@ h3 {
 .bichver {
   display: flex;
   flex-direction: column;
-
   gap: 80px;
 }
 .garchig2 {
-  font-family: Montserrat;
-  font-weight: 700;
   text-align: left;
 }
 .garchig2 h3 {
@@ -106,6 +100,7 @@ h3 {
 .days_dashed {
   display: flex;
   position: relative;
+  gap: 16px;
 }
 .dashed {
   height: 491px;
@@ -114,7 +109,7 @@ h3 {
   border-color: #121316;
   border-style: dashed;
   position: absolute;
-  left: 27px;
+  left: 43px;
   top: 20px;
 }
 .days {
@@ -132,4 +127,19 @@ h3 {
   color: #16a94a;
   background-color: #1d1f24;
   border-radius: 28px;
+}
+.day_spot {
+  height: 56px;
+}
+.day_spot h2 {
+  font-size: 16px;
+  line-height: 19.5px;
+  text-align: left;
+}
+.day_spot h4 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.63px;
+  text-align: left;
+  color: #777777;
 }
