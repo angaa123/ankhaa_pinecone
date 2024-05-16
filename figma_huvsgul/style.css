@@ -3,6 +3,15 @@
   box-sizing: border-box;
   padding: 0;
 }
+body {
+  background-color: #f4f4f4;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 nav {
   height: 80px;
   width: 100vw;
@@ -10,6 +19,117 @@ nav {
   display: flex;
   justify-content: center;
 }
-div {
+.topMain {
   margin: 120px;
+  width: fit-content;
+  max-width: 1500px;
+  gap: 80px;
+}
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.garchig {
+  gap: 8px;
+}
+h1 {
+  font-weight: 700;
+  font-family: Montserrat;
+  color: #303030;
+}
+h3 {
+  color: #ababab;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.garchig h1 {
+  font-size: 72px;
+  line-height: 87.77px;
+  text-align: center;
+}
+.garchig h3 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.26px;
+  text-align: center;
+  color: #ababab;
+}
+.image {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.image img {
+  width: 284px;
+  height: 400px;
+  margin: 20px;
+  border-radius: 12px;
+}
+.plane {
+  display: flex;
+  justify-content: space-between;
+  margin: 120px;
+  max-width: 1200px;
+  width: fit-content;
+}
+
+.plane img {
+  width: 692px;
+  height: 845px;
+  border-radius: 24px;
+}
+
+.bichver {
+  display: flex;
+  flex-direction: column;
+
+  gap: 80px;
+}
+.garchig2 {
+  font-family: Montserrat;
+  font-weight: 700;
+  text-align: left;
+}
+.garchig2 h3 {
+  font-size: 24px;
+  line-height: 29.26px;
+}
+.garchig2 h1 {
+  font-size: 48px;
+  line-height: 58.51px;
+}
+.days_dashed {
+  display: flex;
+  position: relative;
+}
+.dashed {
+  height: 491px;
+  width: 1px;
+  border: 1px;
+  border-color: #121316;
+  border-style: dashed;
+  position: absolute;
+  left: 27px;
+  top: 20px;
+}
+.days {
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+.day {
+  height: 56px;
+  width: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #16a94a;
+  background-color: #1d1f24;
+  border-radius: 28px;
 }
