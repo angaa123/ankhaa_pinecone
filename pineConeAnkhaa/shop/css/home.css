@@ -45,7 +45,6 @@
 }
 .catecory {
   width: 1110px;
-  height: 406px;
   top: 841px;
   left: 231px;
   gap: 10px;
@@ -68,6 +67,7 @@
   justify-content: center;
   position: relative;
   top: -15vh;
+  height: fit-content;
 }
 .item_content {
   width: 80%;
@@ -97,4 +97,25 @@
 }
 .cat_item {
   gap: 50px;
+}
+.all_products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aqua;
+  height: 400px;
+}
+.all_products h1 {
+  font-family: Arial;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -1.2000000476837158px;
+  text-align: center;
+  width: 292px;
+  height: 44px;
+  left: 411px;
+  gap: 0px;
+  opacity: 0px;
+  color: #161c2d;
 }
